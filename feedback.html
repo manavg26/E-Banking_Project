@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>feedback</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="layout/styles/forms.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+    <body id = "top">
+      <form action="" method="POST" style="background-color: white">
+        <h1>Bank Customer Feedback</h1>
+          <div class="formcontainer">
+      <hr/>
+      <div class="container">
+        <label for="Name"><strong>Name:</strong></label>
+        <input name="Name" type="text" placeholder="Enter your name" required="required">
+        <br><br>
+        <label for="Email"><strong>Email: </strong></label>
+        <input name="Email" type="email" style="width: 100%;padding: 16px 8px;margin: 8px 0;display: inline-block;border: 1px solid #ccc;box-sizing: border-box;" placeholder="Enter your email" required="required">
+        <br><br>
+        <label for="Phone"><strong>Phone Number:</strong> </label>
+        <input type="text" name="Phone" placeholder="Enter your 10 digit phone number" minlength="10" pattern="[0-9]{10}" maxlength="10" required="required" size="30">
+        <br><br>
+        <label for="Name_of_Staff"><strong>Name of staff who served me:</strong></label>
+        <input name="Name_of_Staff" type="text" placeholder="Enter name of staff" required="required">
+        <br><br>
+        <label for="Branch"><strong>Branch visited:</strong></label>
+        <input name="Branch" type="text" placeholder="Branch visited" required="required">
+        <br><br>
+        <label for="Feed"><strong>Feedback Enquiry:</strong></label> 
+        <p class="small">
+        <textarea id="w3review" name="Feed" rows="5" cols="100"></textarea>
+        <h5>Please do not indicate your account or credit card number and banking instruction in your comments. Thank you for your time and valuable feedback.</h5></small>
+        </p>
+      </div>
+        <div class="btn-block">
+          <button type="submit" name="feedback">Send Feedback</button>
+          <br>
+          <button type="button" onclick="location.href='front.php'">GO BACK</button>
+        </div>
+      </div>
+      </form>
+  </body>
+</html>

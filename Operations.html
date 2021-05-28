@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+<title>Facilities</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<style>
+.glow {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: #F80606;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 10px 25px #F1A3A3;
+}
+</style>
+</head>
+<body id="top">
+<br>
+<a class="glow glow-button" style="margin-left:90%" href="logout.php"><b>Sign Out</b></a><br><br>
+<div class="bgded overlay">
+  <section id="services" class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <p class="nospace font-xs" style="font-size:20px" id="name_enter">Hello</p><br>
+      <p class="nospace font-xs">easy access to your bank</p>
+      <h6 class="heading font-x2">What Can I Help you with?</h6>
+    </div>
+    <ul class="nospace group elements elements-three">
+      <li class="one_third">
+        <article>
+          <div>
+            <footer><a href="#"><i class="fas fa-donate"></i></a></footer>
+            <h6 class="heading">DEPOSIT</h6>
+          </div>
+          <p>Deposit your money</p>
+          <p><a href="deposit.php">Deposit your money</a></p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article>
+          <div>
+            <footer><a href="#"><i class="fas fa-hand-holding-usd"></i></a></footer>
+            <h6 class="heading">WITHDRAWL</h6>
+          </div>
+          <p>Need money, opt for easy withdrawl</p>
+          <p><a href="withdraw.php">Withdraw your money</a></p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article>
+          <div>
+            <footer><a href="#"><i class="fas fa-balance-scale"></i></a></footer>
+            <h6 class="heading">BALANCE</h6>
+          </div>
+          <p>Check your account balance</p>
+          <p><a href="balance.php">Balance</a></p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article>
+          <div>
+            <footer><a href="#"><i class="fas fa-key"></i></a></footer>
+            <h6 class="heading">CHANGE PIN</h6>
+          </div>
+          <p>Changing passwords is a healthy practice. Change password now</p>
+          <p><a href="changepass.php">Change pin</a></p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article>
+          <div>
+            <footer><a href="#"><i class="fas fa-exchange-alt"></i></a></footer>
+            <h6 class="heading">TRANSFER</h6>
+          </div>
+          <p>Transfering money is no more a fuss. Easy transfers are here now!</p>
+          <p><a href="transfer.php">Transfer now</a></p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article>
+          <div>
+            <footer><a href="#"><i class="far fa-question-circle"></i></a></footer>
+            <h6 class="heading">FAQs</h6>
+          </div>
+          <p>Frequently asked questions by your side have their answers here!</p>
+          <p><a href="faq.php">FAQs</a></p>
+        </article>
+      </li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<!-- Homepage specific -->
+<script src="layout/scripts/jquery.easypiechart.min.js"></script>
+<!-- / Homepage specific -->
+</body>
+</html>
